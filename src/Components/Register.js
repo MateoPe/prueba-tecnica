@@ -4,9 +4,13 @@ import Login from './Login'
 
 function Register() {
 
+    // aqui agregamos el valor del nombre
     const [name, setName] = useState("");
+    // aqui agregamos la identificacion
     const [identification, setIdentification] = useState("");
+    // aqui agregamos el correo
     const [email, setEmail] = useState("");
+    // aqui agregamos la contraseña 
     const [password, setPassword] = useState("");
     const [flag, setFlag] = useState(false);
     const [login, setLogin] = useState(true);
